@@ -52,6 +52,7 @@ public class Departamento {
 		empleados.add(emp);
 	}
 
+	//Metodo toString
 	@Override
 	public String toString() {
 	    String resultado= "Departamento: \nCodigo: " + codigo 
