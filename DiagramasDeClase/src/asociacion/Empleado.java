@@ -100,7 +100,7 @@ public class Empleado {
 		return resultado;
 	}
 
-	// Metodo toString
+	// Metodo toString para mostrar datos
 	@Override
 	public String toString() {
 		return "\n Empleado \n Codigo: " + codigo + "\n Nombre: " + nombre + "\n Oficio: " + oficio + "\n Salario:"
