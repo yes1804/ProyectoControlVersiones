@@ -30,13 +30,11 @@ public class Director extends Empleado {
 	public void setFechadirector(Date fechadirector) {
 		this.fechadirector = fechadirector;
 	}
-
-
+	
 	public void asignar(String nom, Date fecha, String tel, int codem, Date fechaalta, double sal, String cat, Date fech) {
 		super.asignar(nom, fecha, tel, codem, fechaalta, sal);
 		this.categoria = cat;
 		this.fechadirector = fech;
 	}
-
 	
 }
